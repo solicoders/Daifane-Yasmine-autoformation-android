@@ -55,11 +55,33 @@ Compose  :
 
 
 
-### Summary
 
-- A Kotlin program requires a main function as the entry point of the program.
-- To define a function in Kotlin, use the fun keyword, followed by the name of the function, any inputs enclosed in parentheses, followed by the function body enclosed in curly braces.
-- The name of a function should follow camel case convention and start with a lowercase letter.
-- Use the println() function call to print some text to the output.
-Refer to the Kotlin style guide for formatting and code conventions to follow when coding in Kotlin.
-- Troubleshooting is the process of resolving errors in your code.
+- Inférence de type ?
+
+- Expliquer le message d'erreur de ce code : 
+
+  ```bash
+  fun main() {
+    var nom = "Fouad"
+    var bonjour_nom = Bonjour(nom)
+    println (bonjour_nom)
+    println (nom)
+   }
+
+  fun Bonjour(nom:String):String{
+    nom =  "Bonjour" + nom
+    return nom
+     }
+  ```
+
+
+
+ - we have this error `Val cannot be reassigned`
+
+
+##  Variables and data types
+
+
+
+## Références 
+- https://developer.android.com/training/kotlinplayground
