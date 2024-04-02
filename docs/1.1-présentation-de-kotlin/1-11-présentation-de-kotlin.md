@@ -1,3 +1,9 @@
+---
+layout: default
+chapitre: introduction
+presentation: introduction
+order: 2
+---
 # présentation-de-kotlin
 
 ## Befor u begin
@@ -7,4 +13,5 @@ Compose  :
 -  It requires less code to implement a UI compared to the Android View system
 -   makes your app easier to maintain
 ##  Android Basics with Compose
-- 
+- Android devices
+  - tvs ,phones , cars, tablets,watches
