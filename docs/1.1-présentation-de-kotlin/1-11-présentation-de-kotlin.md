@@ -55,3 +55,11 @@ Compose  :
 
 
 
+### Summary
+
+- A Kotlin program requires a main function as the entry point of the program.
+- To define a function in Kotlin, use the fun keyword, followed by the name of the function, any inputs enclosed in parentheses, followed by the function body enclosed in curly braces.
+- The name of a function should follow camel case convention and start with a lowercase letter.
+- Use the println() function call to print some text to the output.
+Refer to the Kotlin style guide for formatting and code conventions to follow when coding in Kotlin.
+- Troubleshooting is the process of resolving errors in your code.
