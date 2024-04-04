@@ -99,6 +99,22 @@ To define a new variable, start with the Kotlin keyword val (which stands for va
 - val keyword - Use when you expect the variable value will not change.
 - var keyword - Use when you expect the variable value can change.
 
+## Questions
+- Créer un programme qui demande deux valeurs à l'utilisateur. Ensuite, il calcule la somme de ces deux valeurs.
+
+```bash
+fun main() {
+   println("Entrez la première valeur :")
+    val valeur1 = readLine()!!.toInt()
+
+    println("Entrez la deuxième valeur :")
+    val valeur2 = readLine()!!.toInt()
+
+    val somme = valeur1 + valeur2
+    println("La somme de $valeur1 et $valeur2 est : $somme")
+  }
+```
+
 
 ## Références 
 - https://developer.android.com/training/kotlinplayground
