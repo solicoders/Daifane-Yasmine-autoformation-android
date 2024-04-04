@@ -56,7 +56,9 @@ Compose  :
 
 
 
-- Inférence de type ?
+- Inférence de type :  The Kotlin compiler automatically infers the types of  variables without explicit declaration.
+  - val count = 2
+  - val count: Int
 
 - Expliquer le message d'erreur de ce code : 
 
@@ -76,11 +78,26 @@ Compose  :
 
 
 
+```bash
+ fun main() {
+  val birth = 2002
+  val now  = 2024
+    
+   println("You have ${now-birth} unread messages")    
+   }
+
+   `Output = You have 22 unread messages`
+```
+
  - we have this error `Val cannot be reassigned`
 
 
 ##  Variables and data types
 
+- Keyword to define new variable
+To define a new variable, start with the Kotlin keyword val (which stands for value). Then the Kotlin compiler knows that a variable declaration is in this statement.
+- val keyword - Use when you expect the variable value will not change.
+- var keyword - Use when you expect the variable value can change.
 
 
 ## Références 
