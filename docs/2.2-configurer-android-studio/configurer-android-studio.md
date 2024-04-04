@@ -24,4 +24,6 @@ order: 3
 
 # Configurer android studio
 
+- C quoi JRE 
 
+- ![JRE](/besoin/2.2-configurer-android-studio/configurer-android-studio.md){: width="700px" }*Figure : JRE*
