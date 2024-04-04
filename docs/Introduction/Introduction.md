@@ -5,8 +5,8 @@ presentation: introduction
 order: 2
 ---
 
-# Introduction
-![Introduction](./images/introduction.jpg){:width="900px"}*figure: Introduction*
+# introduction
+![Introduction](/android/introduction/images/introduction.jpg){:width="900px"}*figure: Introduction*
 
 <!-- note -->
 
