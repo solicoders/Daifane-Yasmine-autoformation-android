@@ -6,12 +6,12 @@ order: 4
 ---
 
 # Créer une mise en page de base
-
+### Question 
 - Créer une mise en page de baseDonnez les définitions des termes suivants :
     - sp
     - dp
   
-- Solution 
+### Solution 
   - Scalable pixels
   - The scalable pixels (SP) is a unit of measure for the font size. 
   - UI elements in Android apps use two different units of measurement: 
@@ -19,7 +19,7 @@ order: 4
     - density-independent pixels (DP), which you use later for the layout, and scalable pixels (SP).
   -  By default, the SP unit is the same size as the DP unit, but it resizes based on the user's preferred text size under phone settings. 
 
-### using ROw and Column
+## Using ROw and Column
 
  ```bash
   Row {
@@ -37,6 +37,7 @@ order: 4
         )
     }
 ```
+
 ```bash
  Column (  verticalArrangement = Arrangement.Center,
         modifier = modifier) {
@@ -60,7 +61,7 @@ order: 4
     }
 ```
 
-### Add an image 
+## Add an image 
 
 ```bash
 @Composable
@@ -88,7 +89,7 @@ fun BirthdayCardPreview() {
 
 ```
 
-### Using compsal Box to add text on top of image
+## Using compsal Box to add text on top of image
 
 ```bash
 @Composable
@@ -120,5 +121,6 @@ fun BirthdayCardPreview() {
             from = "From Emma"
         )
     }
-}
+ }
+
 ```
